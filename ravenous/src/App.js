@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import BusinessList from './components/BusinessList/BusinessList';
 import SearchBar from './components/SearchBar/SearchBar';
@@ -14,11 +14,13 @@ const business = {
   category: 'Italian',
   rating: 4.5,
   reviewCount: 90
-}
+};
 const businesses =[business, business,business,business,business,business];
+
 class App extends React.Component {
+
   SearchYelp(term,location,sortBy){
-    console.log(`We are searching {term},{location},{sortBy}`);
+    console.log(`We are searching ${term},${location},${sortBy}`);
   }
   render() {
     return (
