@@ -31,7 +31,7 @@ class SearchBar extends React.Component {
       'Best Match': 'best_match',
       'Highest Rated': 'rating',
       'Most Reviewed': 'review_count'
-    }
+    };
 
   }
   getSortByClass(sortByOption) {
